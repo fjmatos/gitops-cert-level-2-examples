@@ -9,7 +9,6 @@ metadata:
     argocd.argoproj.io/hook: PreSync
   annotations:
     argocd.argoproj.io/sync-wave: "10" 
-	
 spec:
   template:
     spec:
